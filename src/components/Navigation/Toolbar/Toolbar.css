@@ -1,0 +1,29 @@
+.Toolbar{
+    width: 100%;
+    height:56px;
+    position: fixed;
+    padding:0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#c98a63;
+    top: 0;
+    left:0;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.Toolbar nav{
+    height: 100%;
+}
+
+.Logo{
+    height: 80%;
+}
+
+/* if a screen is less than 499px set the css class display property to none */
+@media(max-width: 499px){
+    .desktopOnly{
+        display: none;
+    }
+}
